@@ -45,3 +45,6 @@ class CDStack:
         del self.cds[user_input - 1]
         print("")
         print("CD Removed")
+
+    def __str__(self):
+        return self.name
